@@ -33,7 +33,7 @@ public class UserRepository
         return u;
     }
 
-    public void increment(int x)
+    public synchronized void increment(int x)
     {
         User u = null;
         for(int i=0;i<users.size();i++)
