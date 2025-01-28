@@ -23,7 +23,7 @@ public class Main {
 
 
 
-        System.out.println(ur.get(1).param);
+        System.out.println(ur.get(1).param.get());
 
 
 

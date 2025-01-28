@@ -45,8 +45,6 @@ public class UserRepository
                 break;
             }
         }
-        int cp = u.param;
-        int ne = cp+1;
-        u.param=ne;
+        u.param.incrementAndGet();
     }
 }
